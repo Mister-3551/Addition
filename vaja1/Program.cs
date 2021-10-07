@@ -6,23 +6,21 @@ namespace vaja1
     {
         static void Main(string[] args)
         {              
-            int a;
-            int b;
-            int c;
+            int a ,b ,c;
 
-            Console.WriteLine("Enter value of 'a':");        
+            Console.WriteLine("Enter value of 'a': ");        
             while (!int.TryParse(Console.ReadLine(), out a)){
                 Console.Clear();
                 Console.WriteLine("You entered an invalid number");
-                Console.Write("Enter value of 'a':");         
+                Console.Write("Enter value of 'a': ");         
             }
             
-            Console.WriteLine("Enter value of 'b':");
+            Console.WriteLine("Enter value of 'b': ");
             while (!int.TryParse(Console.ReadLine(), out b))
             {
                 Console.Clear();
                 Console.WriteLine("You entered an invalid number");
-                Console.Write("Enter value of 'b':");
+                Console.Write("Enter value of 'b': ");
             }
 
             Console.Clear();
