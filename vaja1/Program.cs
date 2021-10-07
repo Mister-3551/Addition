@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace vaja1
 {
@@ -25,13 +25,14 @@ namespace vaja1
                 Console.Write("Enter value of 'b':");
             }
 
+            Console.Clear();
             c = Add(a, b);
-            Console.WriteLine("a + b = {0}", c);
+            Console.WriteLine("Result: a + b = {0}", c);
         }
         public static int Add(int x, int y)
         {
             int result = x + y;
             return result;
         }
-}
+    }
 }
